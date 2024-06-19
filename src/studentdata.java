@@ -2,20 +2,20 @@ import java.util.Scanner;
 public class studentdata {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        final int pass=40;
-        System.out.println("Enter the marks in telugu");
+         int pass=40;
+        System.out.println("Enter the marks in Telugu");
         int telugu = sc.nextInt();
-        System.out.println("Enter the marks in english");
+        System.out.println("Enter the marks in English");
         int english = sc.nextInt();
-        System.out.println("Enter the marks in maths"); 
+        System.out.println("Enter the marks in Maths"); 
         int maths = sc.nextInt();
-        System.out.println("Enter the marks in science");
+        System.out.println("Enter the marks in Science");
         int science = sc.nextInt();
-        System.out.println("Enter the marks in history");
+        System.out.println("Enter the marks in History");
         int history = sc.nextInt();
         int total = telugu+english+maths+science+history;
         if(telugu>=pass && english>=pass && maths>=pass && science>=pass && history>=pass){
-            System.out.println(total);
+            System.out.println("Total marks are : "+total);
 
             if(total>=400 && total<=500){
                 System.out.println("Grade is: A");
@@ -38,6 +38,22 @@ public class studentdata {
             System.out.println("markes in science are : "+science);
             System.out.println("markes in history are : "+history);
             System.out.println("fail");
+            if(telugu<pass){
+                System.out.println("your failed in Telugu");
+            }
+            if(english<pass){
+                System.out.println("Your failed in english");
+            }
+            if(maths<pass){
+                System.out.println("Your failed in maths");
+            }
+            if(science<pass){
+                System.out.println("Your failed in science");
+            }
+            if(history<pass){
+                System.out.println("Your failed in history");
+            }
+            
         }
         else
             {
