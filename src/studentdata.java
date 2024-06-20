@@ -39,20 +39,36 @@ public class studentdata {
             System.out.println("markes in history are : "+history);
             System.out.println("fail");
             if(telugu<pass){
-                System.out.println("your failed in Telugu");
+                System.out.println("you are failed in Telugu");
             }
             if(english<pass){
-                System.out.println("Your failed in english");
+                System.out.println("You are failed in english");
             }
             if(maths<pass){
-                System.out.println("Your failed in maths");
+                System.out.println("You are failed in maths");
             }
             if(science<pass){
-                System.out.println("Your failed in science");
+                System.out.println("You are failed in science");
             }
             if(history<pass){
-                System.out.println("Your failed in history");
+                System.out.println("You are failed in history");
             }
+            if(telugu>pass){
+                System.out.println("you are passed in Telugu");
+            }
+            if(english>pass){
+                System.out.println("You are passed in english");
+            }
+            if(maths>pass){
+                System.out.println("You are passed in maths");
+            }
+            if(science>pass){
+                System.out.println("You are passed in science");
+            }
+            if(history>pass){
+                System.out.println("You are passed in history");
+            }
+
             
         }
         else
